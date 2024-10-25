@@ -1,0 +1,21 @@
+spring:
+  data:
+    mongodb:
+      uri: "mongodb+srv://admin:1234@mariaenriqueta.f47y4yu.mongodb.net/vg-ms-mariaenriqueta?retryWrites=true&w=majority"
+
+server:
+  port: 8410
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+  api-docs:
+    path: /api/teacher
+
+management:
+  endpoint:
+    health:
+      show-details: always
+
+api:
+  version: /v1
