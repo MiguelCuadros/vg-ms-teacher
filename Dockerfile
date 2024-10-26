@@ -4,7 +4,7 @@ LABEL authors="MiguelCuadros"
 
 WORKDIR /app
 
-COPY target/vg-ms-teacher-0.0.1-SNAPSHOT.jar vg-ms-teacher.jar
+COPY target/vg-ms-teacher.jar vg-ms-teacher.jar
 
 EXPOSE 8410
 
